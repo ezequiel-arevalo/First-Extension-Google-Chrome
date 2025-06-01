@@ -1,0 +1,22 @@
+{
+    "manifest_version": 3,
+    "name": "Hello World",
+    "description": "This is my First Extensión",
+    "version": "1.0",
+    "author": "Ezequiel Arevalo",
+    "action": {
+        "default_title": "First Extensión for Google Chrome",
+        "default_icon": {
+        "128": "logo.png"
+        }
+    },
+    "background": {
+        "service_worker": "background.js"
+    },
+    "permissions": [
+        "tabs"
+    ],
+    "icons": {
+        "128": "logo.png"
+    }
+}
